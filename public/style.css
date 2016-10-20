@@ -10,3 +10,23 @@ body {
 h1 {
   font-size: 60px;
 }
+
+p {
+  font-size: 16px;
+}
+
+.navbar {
+  font-size: 40px;
+  color: white;
+  background-color: #696969;
+  letter-spacing: 3px;
+  text-align: right;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}

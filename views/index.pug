@@ -10,7 +10,6 @@ html
   body
     include navbar
 
-
     .container
       .row
         .col-xs-8
@@ -22,6 +21,6 @@ html
       .row
         each movie in movies
           .col-xs-3
-            a(href="/books/" + movie.slug)
+            a(href="/movies/" + movie.slug)
               img(width="225" height="335" src=movie.imageURL)
               h3= movie.title
