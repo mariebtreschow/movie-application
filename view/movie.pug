@@ -1,0 +1,15 @@
+html
+  head
+    link(rel="style" href="bootstrap.min.css")
+  body
+    include navbar
+
+    .container
+      .row
+        .col-xs-4
+          img(class="img-fluid" src=movie.imageURL)
+        .col-xs-8
+          h1= movie.title
+          h5 Directed by #{movie.director}
+          p= movie.description
+          p #{movie.minutesLong} Minutes

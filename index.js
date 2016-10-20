@@ -21,7 +21,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/movies', function(req, res) {
-  console.log('Requesting /books');
+  console.log('Requesting /movies');
   res.send(pug.renderFile('views/index.pug', { movies: movieInMemory }));
 });
 
